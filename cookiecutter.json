@@ -1,0 +1,7 @@
+{
+  "project_name": "My Python Library",
+  "project_slug": "my_python_lib",
+  "author_name": "Tim Marquart",
+  "description": "A modern Python library",
+  "use_precommit": "y"
+}

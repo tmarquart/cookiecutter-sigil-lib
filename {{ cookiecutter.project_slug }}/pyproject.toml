@@ -1,0 +1,17 @@
+[project]
+name = "{{ cookiecutter.project_slug }}"
+version = "0.1.0"
+description = "{{ cookiecutter.description }}"
+authors = [{ name = "{{ cookiecutter.author_name }}" }]
+requires-python = ">=3.9"
+
+[project.optional-dependencies]
+dev = ["ruff", "black", "pytest"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+select = ["E", "F", "W"]
+line-length = 100

@@ -1,0 +1,28 @@
+# JetBrains / PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows thumbnail cache
+Thumbs.db
+
+# Python cache files (if editing/testing parts)
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Backup files
+*.swp
+*.bak
+*.tmp
+*.orig
+
+# VS Code project files (optional if you're not sharing workspace settings)
+.vscode/
+
+# Cookiecutter cruft
+*~  # editor backups
+
+# Poetry lock if you experiment inside the template
+poetry.lock
